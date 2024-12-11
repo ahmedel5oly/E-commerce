@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-commerceApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b95e4c0674f8cf28f04ddf758612639a20c9590")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e79507f218b77416925fd11634f9f014ae5c0fef")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-commerceApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-commerceApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
