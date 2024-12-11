@@ -4,17 +4,10 @@ namespace ECommerceApi.Models
     public class Order
     {
         public int Id { get; set; }
-        public int CustomerId { get; set; }
-        public DateTime OrderDate { get; set; }
-        public List<OrderItem> OrderItems { get; set; }
-        public decimal TotalAmount { get; set; }
-    }
-
-    public class OrderItem
-    {
-        public int Id { get; set; }
-        public int ProductId { get; set; }
-        public int Quantity { get; set; }
-        public decimal Price { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime Date { get; set; } = DateTime.UtcNow;
+        public AppUser User {get; set;}
+        public ICollection<Product> Products { get; set; }
+        public PaymentMethods Method {get; set;}
     }
 }

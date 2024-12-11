@@ -11,7 +11,7 @@ namespace ECommerceApi.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        [MaxLength(100)]
+        [MaxLength(500)]
         public int CategoryId {get; set;}
         public Category Category {get; set;}
         public ICollection<CartProduct> CartProducts {get; set;}
